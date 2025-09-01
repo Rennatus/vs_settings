@@ -1,0 +1,10 @@
+{
+    "sync.gist": "73b39d8be6a21264b320f08b851581c4",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.removeExtensions": false,
+    "sync.quietSync": true,
+    "sync.forceDownload": false,
+    "workbench.iconTheme": "catppuccin-macchiato",
+    "window.newWindowProfile": "Default"
+}
