@@ -1,5 +1,6 @@
 {
-    "workbench.iconTheme": "catppuccin-macchiato",
+    "workbench.iconTheme": "catppuccin-mocha",
     "editor.fontFamily": "Maple Mono NF CN,Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
+    "workbench.colorTheme": "Catppuccin Mocha",
 }

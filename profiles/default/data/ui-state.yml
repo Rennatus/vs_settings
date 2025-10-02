@@ -65,7 +65,8 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"}]},{\"id\":\"workbench.view.extension.cmake-view\",\"iconUrl\":{\"$mid\":1,\
   \"path\":\"%%EXTENSION_DATA_PATH%%/kylinideteam.kylin-cmake-tools-0.0.4-unive\
   rsal/res/cmake-view-icon2.svg\",\"scheme\":\"file\"},\"name\":\"CMake\",\"isB\
-  uiltin\":false,\"views\":[]}]"
+  uiltin\":false,\"views\":[{\"when\":\"cmake:enableFullFeatureSet\"},{\"when\":\
+  \"cmake:enableFullFeatureSet\"},{\"when\":\"cmake:enableFullFeatureSet\"}]}]"
 workbench.activityBar.location: default
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":100}]'
@@ -73,8 +74,8 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   || chatPanelParticipantRegistered || chatSetupInstalled && !chatSetupDisabled
   || !chatSetupDisabled && !chatSetupHidden"}]}]'
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["jsonc",true]]'
-workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false}]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["jsonc",true],["rust",true]]'
+workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"clangd.typeHierarchyView","isHidden":false},{"id":"clangd.memoryUsage","isHidden":false},{"id":"clangd.ast","isHidden":false}]'
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
 workbench.panel.lastNonMaximizedHeight: "300"
@@ -99,6 +100,6 @@ workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","is
 workbench.view.extension.todo-tree-container.state.hidden: '[{"id":"todo-tree-view","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "7"
+workbench.views.extensions.installed.size: "9"
 workbench.welcomePage.walkthroughMetadata: '[["rust-lang.rust-analyzer#landing",{"firstSeen":1756955483455,"stepIDs":["setup","docs","faq","changelog"],"manaullyOpened":false}],["eamodio.gitlens#welcome",{"firstSeen":1756977792264,"stepIDs":["get-started-community","welcome-in-trial","welcome-in-trial-expired","welcome-in-trial-expired-eligible","welcome-paid","welcome-home-view","visualize-code-history","accelerate-pr-reviews","streamline-collaboration","improve-workflows-with-integrations","ai-features"],"manaullyOpened":false}]]'
 zokugun.cron-tasks: '{"version":"0.2.1"}'
